@@ -1,0 +1,91 @@
+﻿body {
+	font-family: 'Segoe UI', sans-serif;
+}
+
+html {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 20px;
+}
+
+div#main {
+	border-radius: 18px;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+
+	background-color: #0068b7;
+
+	padding: 1px;
+	margin: 10px;
+}
+
+div#main:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+div.line {
+	border-radius: 12px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 10px;
+
+	background-color: #4496d3;
+
+	padding: 1px;
+	margin: 5px;
+	width: 320px;
+
+	float: left;
+}
+
+div.head {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;  
+	-moz-border-radius-topright: 10px;
+
+	background-color: #bbdbf3;
+
+	padding: 0px;
+	margin: 0px 0px 2px;
+	width: 100%;
+}
+
+div.foot {
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;  
+	-moz-border-radius-bottomright: 10px;
+
+	background-color: #bbdbf3;
+
+	padding: 0px;
+	margin: 2px 0px 0px;
+	width: 100%;
+}
+
+div.item {
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+
+	background-color: #bbdbf3;
+
+	margin: 5px 0px;
+	width: 100%;
+}
